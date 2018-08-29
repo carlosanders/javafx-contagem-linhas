@@ -1,0 +1,117 @@
+/* 
+    Created on : 24/09/2017, 22:25:32
+    Author     : carlosanders
+*/
+
+.root{
+    -fx-background-color: #FFFFFF;
+}
+
+.cardPane{
+    -fx-background-color: white;
+    -fx-background-radius: 8px;
+}
+
+.topPane{
+    -fx-background-color: #3196DE;
+}
+
+.menu{
+    -fx-background-color: #FFFFFF;
+}
+
+.menu:hover{
+    -fx-background-color: rgb(90, 183, 245);
+    /*-fx-background-color: #00C853;*/
+    -fx-text-fill:#FFFFFF;
+    -fx-text-alignment:center;
+}
+
+.telaPrincipal{
+    -fx-border-color: rgb(11, 77, 121);
+    -fx-border-width: 1 1 1 1;
+}
+
+.warning, .btn_primary, .success,
+.danger {
+    -fx-background-color: transparent, white;
+    -fx-min-width: 30;
+    /*-fx-pref-height: 30;
+    -fx-font-size: 14;
+	-fx-background-radius: 4;
+	-fx-border-radius: 4;*/
+	
+}
+
+/*primary*/
+.btn_primary{
+    -fx-background-color: #337ab7;
+    -fx-text-fill:#FFFFFF;
+    -fx-border-color: #2e6da4;   	
+}
+.btn_primary:hover{
+    -fx-border-color: #204d74;
+	-fx-background-color: #286090;
+}
+
+.btn_primary:pressed, .btn_primary:selected{
+    -fx-background-color: #286090;
+	-fx-border-color: #204d74;
+	-fx-effect: innershadow(gaussian, #204d74, 10, 0, 0, 3);
+}
+
+/*warning*/
+.warning{
+    -fx-background-color: #f0ad4e;
+    -fx-border-color: #eea236;
+	-fx-text-fill: white;  	
+}
+.warning:hover{
+    -fx-border-color: #d58512;
+	-fx-background-color: #ec971f;
+}
+
+.warning:pressed, .warning:selected{
+    -fx-background-color: #ec971f;
+	-fx-border-color: #d58512;
+	-fx-effect: innershadow(gaussian, #d58512, 10, 0, 0, 3);
+}
+
+/*danger*/
+.danger{
+    -fx-background-color: #d9534f;
+    -fx-border-color: #d43f3a;
+	-fx-text-fill: white;  	
+}
+.danger:hover{
+    -fx-border-color: #ac2925;
+	-fx-background-color: #c9302c;
+}
+
+.danger:pressed, .danger:selected{
+    -fx-border-color: #ac2925;
+	-fx-background-color: #c9302c;
+	-fx-effect: innershadow(gaussian, #ac2925, 10, 0, 0, 3);
+}
+
+/*success*/
+/*danger*/
+.success{
+    -fx-background-color: #5cb85c;
+    -fx-border-color: #4cae4c;
+	-fx-text-fill: white;  	
+}
+.success:hover{
+    -fx-border-color: #398439;
+	-fx-background-color: #449d44;
+}
+
+.success:pressed, .success:selected{
+    -fx-background-color: #449d44;
+	-fx-border-color: #398439;
+	-fx-effect: innershadow(gaussian, #398439, 10, 0, 0, 3);
+}
+
+.jfx-text-field {
+	-fx-prompt-text-fill: #b9b9b9;
+}
